@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5360733, g: 0.53573817, b: 0.52861243, a: 1}
+  m_IndirectSpecularColor: {r: 0.53626674, g: 0.5352761, b: 0.5289804, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Actor: {fileID: 1278036778}
   m_LiveLink:
     m_Active: 1
-    Channels: 15
+    Channels: 13
   m_Pose:
     BlendShapes:
       BrowDownLeft: 0.097686
@@ -3291,6 +3291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SK_NewYearGirl_02 Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7331298373421097160, guid: b21b6ab45b9326041a228259fe70ca82, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7513682614827793463, guid: b21b6ab45b9326041a228259fe70ca82, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.13789207
@@ -4402,13 +4406,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5710712751572895728}
-  m_LocalRotation: {x: -0.30006906, y: 0.83597445, z: -0.36005616, w: -0.28542033}
+  m_LocalRotation: {x: -0.28628528, y: 0.84613806, z: -0.37111002, w: -0.25370947}
   m_LocalPosition: {x: 0.5516631, y: 1.326, z: 0.83059037}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50.65, y: 204.32, z: -27.846}
+  m_LocalEulerAnglesHint: {x: 50.65, y: 200, z: -27.846}
 --- !u!1 &5710712751572895728
 GameObject:
   m_ObjectHideFlags: 0

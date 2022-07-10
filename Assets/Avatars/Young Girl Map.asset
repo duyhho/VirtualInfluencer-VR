@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7542b0a8b93c044618b3d84f58b4bc3c, type: 3}
   m_Name: Young Girl Map
   m_EditorClassIdentifier: 
-  m_RigPrefab: {fileID: 7451520646148156437, guid: 8e8215f6316a63a458707ebab41a1597, type: 3}
+  m_RigPrefab: {fileID: 6844151055516479786, guid: b5e3ec85494a18b4284832ced375a51c, type: 3}
   m_ShapeMatchTolerance: 0.6
   m_DefaultEvaluator: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
   m_InvertMappings: 0
   m_Maps:
-  - m_Path: EyeLeft
+  - m_Path: Wolf3D.Avatar_Renderer_EyeLeft
     m_Bindings:
     - m_Location: 0
       m_ShapeIndex: 61
@@ -1996,7 +1996,7 @@ MonoBehaviour:
             m_RotationOrder: 4
       m_IsExpanded: 1
     m_IsExpanded: 0
-  - m_Path: EyeRight
+  - m_Path: Wolf3D.Avatar_Renderer_EyeRight
     m_Bindings:
     - m_Location: 0
       m_ShapeIndex: 61
@@ -3975,7 +3975,7 @@ MonoBehaviour:
             m_RotationOrder: 4
       m_IsExpanded: 1
     m_IsExpanded: 0
-  - m_Path: Wolf3D_Head
+  - m_Path: Wolf3D.Avatar_Renderer_Head
     m_Bindings:
     - m_Location: 0
       m_ShapeIndex: 61
@@ -5954,7 +5954,7 @@ MonoBehaviour:
             m_RotationOrder: 4
       m_IsExpanded: 1
     m_IsExpanded: 0
-  - m_Path: Wolf3D_Teeth
+  - m_Path: Wolf3D.Avatar_Renderer_Teeth
     m_Bindings:
     - m_Location: 0
       m_ShapeIndex: 61
@@ -7934,12 +7934,12 @@ MonoBehaviour:
       m_IsExpanded: 1
     m_IsExpanded: 0
   m_EyeMovementDriver: 0
-  m_LeftEye: Hips/Spine/Spine1/Spine2/Neck/Head/LeftEye
-  m_RightEye: Hips/Spine/Spine1/Spine2/Neck/Head/RightEye
+  m_LeftEye: Armature/Hips/Spine/Spine1/Spine2/Neck/Head/LeftEye
+  m_RightEye: Armature/Hips/Spine/Spine1/Spine2/Neck/Head/RightEye
   m_EyeAngleRange: {x: 45, y: 30}
   m_EyeAngleOffset: {x: 0, y: 0}
   m_EyeSmoothing: 0.1
-  m_HeadPosition: Hips/Spine/Spine1/Spine2/Neck/Head
-  m_HeadRotation: Hips/Spine/Spine1/Spine2/Neck/Head
+  m_HeadPosition: Armature/Hips/Spine/Spine1/Spine2/Neck/Head
+  m_HeadRotation: Armature/Hips/Spine/Spine1/Spine2/Neck/Head
   m_HeadSmoothing: 0.1
   m_BlendShapeSmoothing: 0.1

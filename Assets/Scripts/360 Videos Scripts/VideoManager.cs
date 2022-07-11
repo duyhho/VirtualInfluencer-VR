@@ -9,6 +9,10 @@ public class VideoManager : MonoBehaviour
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
+        StartCoroutine(DelayPlay(24, "https://benamreview.github.io/360VideosUnity/video3.mp4"));
+        StartCoroutine(DelayPlay(34, "https://benamreview.github.io/360VideosUnity/video4.mp4"));
+
+
     }
 
     public void Play() {
@@ -28,5 +32,11 @@ public class VideoManager : MonoBehaviour
     }
     void VideoPlayer_prepareCompleted(VideoPlayer source) {
         Play();
+    }
+
+    IEnumerator DelayPlay(int secs, string URL)
+    {
+        yield return new WaitForSeconds(secs);
+        URLToVideo(URL);
     }
 }

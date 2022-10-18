@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7542b0a8b93c044618b3d84f58b4bc3c, type: 3}
   m_Name: VR Avatar
   m_EditorClassIdentifier: 
-  m_RigPrefab: {fileID: 8218465624727012882, guid: 85a0a4bd69979a1408362448eb162507, type: 3}
+  m_RigPrefab: {fileID: 8813991309887248693, guid: ff873a8818cb9bb4e95dab00eb176bcd, type: 3}
   m_ShapeMatchTolerance: 0.6
   m_DefaultEvaluator: {fileID: 11400000, guid: 23f316e41ee3e46af9c5d6fdc69047b1, type: 2}
   m_InvertMappings: 0
@@ -1997,8 +1997,8 @@ MonoBehaviour:
       m_IsExpanded: 1
     m_IsExpanded: 1
   m_EyeMovementDriver: 0
-  m_LeftEye: Armature/Hips/Spine/Neck/Head/LeftEye
-  m_RightEye: Armature/Hips/Spine/Neck/Head/RightEye
+  m_LeftEye: Armature/Hips/Spine/Neck/Head/GameObject
+  m_RightEye: Armature/Hips/Spine/Neck/Head/GameObject (1)
   m_EyeAngleRange: {x: 45, y: 30}
   m_EyeAngleOffset: {x: 0, y: 0}
   m_EyeSmoothing: 0.1
